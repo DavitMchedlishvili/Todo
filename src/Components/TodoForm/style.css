@@ -1,0 +1,106 @@
+body {
+  background-color: #2c2c2c;
+}
+
+.main {
+  margin: 15px 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #2c2c2c;
+  align-items: center;
+}
+
+.title-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  border-bottom: white 2px solid;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 25px;
+  font-style: italic;
+}
+
+.line-left,
+.line-right {
+  border: white solid 1px;
+  width: 51px;
+  height: 0px;
+}
+
+.input-div {
+  width: 68%;
+  padding: 35px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 50px;
+}
+
+input {
+  width: 90%;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  position: relative;
+  left: 20px;
+}
+
+.add-button {
+  width: 15%;
+  background-color: #4f4f4f;
+  color: #fff;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 15px;
+  position: relative;
+  right: 30px;
+  cursor: pointer;
+}
+
+ul {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+li {
+  padding: 5px 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  color: white;
+  border-radius: 10px;
+}
+
+.remove {
+  cursor: pointer;
+  background-color: #999999;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+}
+
+.icon {
+  size: 30px;
+}
